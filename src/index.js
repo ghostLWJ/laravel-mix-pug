@@ -10,9 +10,9 @@ const glob = require('glob');
 function pug(src, dest, options) {
 
     // laravel-mix@1.x
-    if (Verify != null) Verify.dependency('pug', ['pug'], true);
-    // laravel-mix@>=2.x
-    else Assert.dependencies(['pug'], true);
+    // if (Verify != null) Verify.dependency('pug', ['pug'], true);
+    // // laravel-mix@>=2.x
+    // else Assert.dependencies(['pug'], true);
 
     let files = glob.sync(src);
 
